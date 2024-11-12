@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,9 @@
     <title>Forside</title>
 </head>
 <body>
-    <header>
+    <div id="flex-container">
+    <header id="global-header">
+        <a href="index.html" id="logo"><h1>Logo</h1></a>
         <nav>
             <ul>
                 <li><a href="index.html">Hjem</a></li>
@@ -19,29 +21,96 @@
                 <li><a href="#contact">Kontakt oss</a></li>
             </ul>
         </nav>
+        <form>
+            <label for="search">Søk</label>
+            <input type="text" id="search" name="search">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <a href="checkout.html" id="cart"><i class="fas fa-shopping-cart"></i></a>
     </header>
     <main>
         <section id="banner">
             <h1>Velkommen til vår nettbutikk</h1>
-            <p>Her finner du alt du trenger</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <a href="#products">Se våre produkter</a>
         </section>
 
         <section id="products">
+            <h2>Våre mest populære produkter</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <form>
+                <label for="sort">Sorter etter:</label>
+                <select name="sort" id="sort">
+                    <option value="price">Pris</option>
+                    <option value="name">Navn</option>
+                    <option value="rating">Rangering</option>
+                </select>
+            </form>
 
+            <article>
+                <h3>Produktnavn</h3>
+            </article>
+
+            <article>
+                <h3>Produktnavn</h3>
+            </article>
+
+            <article>
+                <h3>Produktnavn</h3>
+            </article>
+
+            <article>
+                <h3>Produktnavn</h3>
+            </article>
+
+            <article>
+                <h3>Produktnavn</h3>
+            </article>
+
+            <article>
+                <h3>Produktnavn</h3>
+            </article>
         </section>
 
         <section id="categories">
-
+            <h2>Våre mest populære kategorier</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <article>
+                <h3>Kategori</h3>
+            </article>
         </section>
 
         <section id="reviews">
-
+            <h2>Anmeldelser</h2>
         </section>
 
     </main>
-    <footer>
-        
+    <footer id="global-footer">
+        <a href="index.html">Logo</a>
+        <p>Slagord</p>
+
+        <section id="contact">
+            <h3>Kontakt oss</h3>
+            <p>Adresse</p>
+            <p>Telefon</p>
+            <p>E-post</p>
+        </section>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="#products">Produkter</a></li>
+                <li><a href="#categories">Kategorier</a></li>
+                <li><a href="#contact">Kontakt oss</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://pinterest.com/"><i class="fab fa-pinterest"></i></a>
+        </nav>
     </footer>
+    </div>
 </body>
 </html>

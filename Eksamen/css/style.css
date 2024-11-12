@@ -3,3 +3,39 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: gray;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: gray;
+}
+
+footer ul {
+    list-style: none;
+}
