@@ -10,6 +10,116 @@
     <title>Kasse</title>
 </head>
 <body>
+    <div id="flex-container">
+        <header id="global-header">
+            <nav class="flex-space-b">
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="#products">Produkter</a></li>
+                    <a href="index.html" id="logo"><h1>Logo</h1></a>
+                    <li><a href="#categories">Kategorier</a></li>
+                    <li><a href="#contact">Kontakt oss</a></li>
+                </ul>
+            </nav>
     
+            <form>
+                <label for="search">Søk</label>
+                <input type="text" id="search" name="search">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+
+    </header>
+    <main>
+        <section id="shoppingbag">
+
+        </section>
+
+        <section id="personal-info">
+            <h2>Personlig informasjon</h2>
+            <form>
+                <label for="name">Navn</label>
+                <input type="text" id="name" name="name">
+                <label for="email">E-post</label>
+                <input type="email" id="email" name="email">
+                <label for="phone">Telefon</label>
+                <input type="tel" id="phone" name="phone">
+                <label for="address">Adresse</label>
+                <input type="text" id="address" name="address">
+                <label for="zip">Postnummer</label>
+                <input type="text" id="zip" name="zip">
+                <label for="city">By</label>
+                <input type="text" id="city" name="city">
+                <label for="country">Land</label>
+                <input type="text" id="country" name="country">
+            </form>
+        </section>
+
+        <section id="delivery">
+            <h2>Levering</h2>
+            <form>
+                <label for="delivery">Velg leveringsmetode</label>
+                <select name="delivery" id="delivery">
+                    <option value="pickup">Hent i butikk</option>
+                    <option value="post">Posten</option>
+                    <option value="courier">Bud</option>
+                </select>
+                <label for="date">Velg leveringsdato</label>
+                <input type="date" id="date" name="date">
+                <label for="time">Velg leveringstidspunkt</label>
+                <input type="time" id="time" name="time">
+            </form>
+        </section>
+
+        <section id="payment">
+            <h2>Betaling</h2>
+            <form>
+                <label for="card">Kortnummer</label>
+                <input type="text" id="card" name="card">
+                <label for="expiry">Utløpsdato</label>
+                <input type="text" id="expiry" name="expiry">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv">
+            </form>
+        </section>
+
+    </main>
+    <footer id="global-footer">
+        <section id="logo">
+            <h2><a href="index.html">Logo</a></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+
+        <section id="contact">
+            <h3>KONTAKT</h3>
+            <p><i class="fa-solid fa-location-dot"></i> <span>Adresse:</span> B R A Veien 4, 1757 Halden</p>
+            <p><i class="fa-solid fa-phone"></i> <span>Telefon:</span> 69 60 80 00</p>
+            <p><i class="fa-solid fa-envelope"></i> <span>E-post:</span> halden@hiof.no</p>
+            <p><i class="fa-solid fa-clock"></i> <span>Åpningstider:</span> 08:00 - 15:30</p>
+        </section>
+
+        <section id="shortcuts">
+            <h3>SNARVEIER</h3>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="#products">Produkter</a></li>
+                    <li><a href="#categories">Kategorier</a></li>
+                    <li><a href="#contact">Kontakt oss</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <nav>
+            <h3>SOSIALE MEDIER</h3>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://pinterest.com/"><i class="fab fa-pinterest"></i></a>
+        </nav>
+    </footer>
+    </div>
 </body>
 </html>
