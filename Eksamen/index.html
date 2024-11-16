@@ -11,8 +11,13 @@
 </head>
 <body>
     <div id="flex-container">
-        <header id="global-header">
-            <nav class="flex-space-b">
+        <header>
+            <form>
+                <label for="search"></label>
+                <input type="text" id="search" name="search">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <nav>
                 <ul>
                     <li><a href="index.html">Hjem</a></li>
                     <li><a href="#products">Produkter</a></li>
@@ -20,17 +25,12 @@
                     <li><a href="#categories">Kategorier</a></li>
                     <li><a href="#contact">Kontakt oss</a></li>
                 </ul>
+                <ul>
+                    <li><a href="#"><i class="fa-regular fa-user"></i></a>
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
             </nav>
-    
-            <form>
-                <label for="search">Søk</label>
-                <input type="text" id="search" name="search">
-                <button type="submit"><i class="fas fa-search"></i></button>
-            </form>
-            <a href="#"><i class="fa-regular fa-user"></i></a>
-            <a href="#"><i class="fa-regular fa-heart"></i></a>
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
-
     </header>
     <main>
         <section id="banner">
@@ -90,7 +90,7 @@
 
     </main>
 
-    <footer id="global-footer">
+    <footer>
         <section id="logo">
             <h2><a href="index.html">Logo</a></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
