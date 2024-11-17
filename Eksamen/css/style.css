@@ -2,8 +2,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 10px;
 }
 
 a {
@@ -11,39 +9,8 @@ a {
     color: black;
 }
 
-#flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-header {
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    text-align: center;
-}
-
-header a {
-    text-decoration: none;
-    color: black;
-}
-
-header a:hover {
-    color: gray;
-}
-
 header nav ul{
     list-style: none;
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
-}
-
-footer a:hover {
-    color: gray;
 }
 
 footer ul {
