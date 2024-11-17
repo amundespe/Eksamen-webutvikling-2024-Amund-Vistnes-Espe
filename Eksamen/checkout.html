@@ -10,27 +10,19 @@
     <title>Kasse</title>
 </head>
 <body>
-    <div id="flex-container">
-        <header id="global-header">
-            <nav class="flex-space-b">
-                <ul>
-                    <li><a href="index.html">Hjem</a></li>
-                    <li><a href="#products">Produkter</a></li>
-                    <a href="index.html" id="logo"><h1>Logo</h1></a>
-                    <li><a href="#categories">Kategorier</a></li>
-                    <li><a href="#contact">Kontakt oss</a></li>
-                </ul>
-            </nav>
-    
-            <form>
-                <label for="search">Søk</label>
-                <input type="text" id="search" name="search">
-                <button type="submit"><i class="fas fa-search"></i></button>
-            </form>
-            <a href="#"><i class="fa-regular fa-user"></i></a>
-            <a href="#"><i class="fa-regular fa-heart"></i></a>
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+    <header>
+        <nav>
+            <li><input type="text" id="search" name="search" placeholder="Søk her"><button><i class="fas fa-search"></i></button></li>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="#products">Produkter</a></li>
+            <a href="index.html"><h1>Logo</h1></a>
+            <li><a href="#products">Kategorier</a></li>
+            <li><a href="#contact">Kontakt oss</a></li>
 
+            <li><a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="checkout.html"><i class="fas fa-shopping-cart"></i></a></li>
+        </nav>
     </header>
     <main>
         <section id="shoppingbag">
@@ -38,10 +30,15 @@
         </section>
 
         <section id="personal-info">
-            <h2>Personlig informasjon</h2>
+            <h2>2. DINE OPPLYSNINGER</h2>
             <form>
-                <label for="name">Navn</label>
+                <nav>
+                <ul>
+                <p>Leveringsadresse</p>
+                <label for="name">Fornavn</label>
                 <input type="text" id="name" name="name">
+                <label for="surname">Etternavn</label>
+                <input type="text" id="surname" name="surname">
                 <label for="email">E-post</label>
                 <input type="email" id="email" name="email">
                 <label for="phone">Telefon</label>
@@ -54,6 +51,8 @@
                 <input type="text" id="city" name="city">
                 <label for="country">Land</label>
                 <input type="text" id="country" name="country">
+                </ul>
+                </nav>
             </form>
         </section>
 
@@ -86,7 +85,7 @@
         </section>
 
     </main>
-    <footer id="global-footer">
+    <footer>
         <section id="logo">
             <h2><a href="index.html">Logo</a></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -94,32 +93,29 @@
 
         <section id="contact">
             <h3>KONTAKT</h3>
-            <p><i class="fa-solid fa-location-dot"></i> <span>Adresse:</span> B R A Veien 4, 1757 Halden</p>
-            <p><i class="fa-solid fa-phone"></i> <span>Telefon:</span> 69 60 80 00</p>
-            <p><i class="fa-solid fa-envelope"></i> <span>E-post:</span> halden@hiof.no</p>
-            <p><i class="fa-solid fa-clock"></i> <span>Åpningstider:</span> 08:00 - 15:30</p>
+            <p><i class="fa-solid fa-location-dot"></i><span> Adresse:</span> B R A Veien 4, 1757 Halden</p>
+            <p><i class="fa-solid fa-phone"></i><span> Telefon:</span> 69 60 80 00</p>
+            <p><i class="fa-solid fa-envelope"></i><span> E-post:</span> halden@hiof.no</p>
+            <p><i class="fa-solid fa-clock"></i><span> Åpningstider:</span> Stenger 15:00</p>
         </section>
 
         <section id="shortcuts">
             <h3>SNARVEIER</h3>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Hjem</a></li>
-                    <li><a href="#products">Produkter</a></li>
-                    <li><a href="#categories">Kategorier</a></li>
-                    <li><a href="#contact">Kontakt oss</a></li>
-                </ul>
-            </nav>
+            <p><a href="#products">Produkter</a></p>
+            <p><a href="#categories">Kategorier</a></p>
+            <p><a href="#contact">Kontakt oss</a></p>
         </section>
 
-        <nav>
-            <h3>SOSIALE MEDIER</h3>
-            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-            <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://pinterest.com/"><i class="fab fa-pinterest"></i></a>
-        </nav>
+        <section id="social">
+            <nav>
+                <h3>SOSIALE MEDIER</h3>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="https://linkedin.com/"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="https://pinterest.com/"><i class="fab fa-pinterest fa-lg"></i></a>
+            </nav>
+            </nav>
+        </section>
     </footer>
-    </div>
 </body>
 </html>

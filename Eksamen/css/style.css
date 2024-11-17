@@ -9,7 +9,16 @@ a {
     color: black;
 }
 
-header nav ul{
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+header nav {
     list-style: none;
 }
 
@@ -21,6 +30,11 @@ header nav ul{
 #reviews img {
     width: 30%;
     height: 30%;
+}
+
+#personal-info {
+    display: flex;
+    flex-direction: row;
 }
 
 footer {
