@@ -46,6 +46,14 @@ header nav {
     list-style-type: none;
 }
 
+#confirm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #confirm nav ul {
     list-style-type: none;
 }
