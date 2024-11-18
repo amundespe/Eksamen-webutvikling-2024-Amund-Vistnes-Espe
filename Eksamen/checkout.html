@@ -25,63 +25,85 @@
         </nav>
     </header>
     <main>
+        <section id="title">
+            <h1>Kasse</h1>
+        </section>
+    
         <section id="shoppingbag">
-
+            <h2>1. SHOPPINGBAGEN DIN</h2>
         </section>
 
         <section id="personal-info">
             <h2>2. DINE OPPLYSNINGER</h2>
             <form>
                 <nav>
-                <ul>
-                <p>Leveringsadresse</p>
-                <label for="name">Fornavn</label>
-                <input type="text" id="name" name="name">
-                <label for="surname">Etternavn</label>
-                <input type="text" id="surname" name="surname">
-                <label for="email">E-post</label>
-                <input type="email" id="email" name="email">
-                <label for="phone">Telefon</label>
-                <input type="tel" id="phone" name="phone">
-                <label for="address">Adresse</label>
-                <input type="text" id="address" name="address">
-                <label for="zip">Postnummer</label>
-                <input type="text" id="zip" name="zip">
-                <label for="city">By</label>
-                <input type="text" id="city" name="city">
-                <label for="country">Land</label>
-                <input type="text" id="country" name="country">
-                </ul>
+                    <ul>
+                        <li><p>Leveringsadresse</p></li>
+                        <li><label for="name">Fornavn</label></li>
+                        <li><input type="text" id="name" name="name" placeholder="Nora*"></li>
+                        <li><label for="surname">Etternavn</label> </li>
+                        <li><input type="text" id="surname" name="surname" placeholder="Nordman*"></li>
+                        <li><label for="address">Gateadresse</label></li>
+                        <li><input type="text" id="address" name="address" placeholder="BRA Veien 4*"></li>
+                        <li><label for="zip">Postnummer</label></li>
+                        <li><input type="text" id="zip" name="zip" placeholder="1752*"></li>
+                        <li><label for="city">Poststed</label></li>
+                        <li><input type="text" id="city" name="city" placeholder="Halden*"></li>
+                    </ul>
+                </nav>
+            </form>
+
+            <form>
+                <nav>
+                    <ul>
+                        <li><p>Kontaktinformasjon</p></li>
+                        <li><label for="mail">E-post</label></li>
+                        <li><input type="text" id="mail" name="mail" placeholder="Noranordman@hiof.no...*"></li>
+                        <li><label for="phone">Telefon</label></li>
+                        <li><input type="text" id="phone" name="phone" placeholder="+479***018"></li>
+                    </ul>
+                </nav>
+            </form>
+
+            <button><a href="#">Lagre</a></button>
+            <a href="#">Avbryt</a>
+        </section>
+
+        <section id="delivery">
+            <h2>3. LEVERING</h2>
+        </section>
+
+        <section id="payment">
+            <h2>4. BETALING</h2>
+            <form>
+                <nav>
+                    <ul>
+                        <li><h3>Betal med kort <i class="fa-solid fa-credit-card"></i></h3></li>
+                        <li><label for="card">Kortnummer</label></li>
+                        <li><input type="text" id="card" name="card" placeholder="342342****4435"></li>
+                        <li><label for="expiry">Utløpsdato</label></li>
+                        <li><input type="date" id="expiry" name="expiry"></li>
+                        <li><label for="cvv">CVC/CVV</label></li>
+                        <li><input type="text" id="cvv" name="cvv" placeholder="CVC/CVV"></li>
+                    </ul>
                 </nav>
             </form>
         </section>
 
-        <section id="delivery">
-            <h2>Levering</h2>
-            <form>
-                <label for="delivery">Velg leveringsmetode</label>
-                <select name="delivery" id="delivery">
-                    <option value="pickup">Hent i butikk</option>
-                    <option value="post">Posten</option>
-                    <option value="courier">Bud</option>
-                </select>
-                <label for="date">Velg leveringsdato</label>
-                <input type="date" id="date" name="date">
-                <label for="time">Velg leveringstidspunkt</label>
-                <input type="time" id="time" name="time">
-            </form>
-        </section>
+        <section id="confirm">
+            <p>Å betale inkl. mva.</p>
+            <h2>1 199 kr</h2>
+            <button><a href="#">Fullfør kjøp</a></button>
+            <p>Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufullstendige opplysninger</p>
 
-        <section id="payment">
-            <h2>Betaling</h2>
-            <form>
-                <label for="card">Kortnummer</label>
-                <input type="text" id="card" name="card">
-                <label for="expiry">Utløpsdato</label>
-                <input type="text" id="expiry" name="expiry">
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv">
-            </form>
+            <nav>
+                <ul>
+                    <li><input type="checkbox" id="newsletter" name="newsletter"/>
+                    <label for="newsletter">Ja takk! Send nyhetsbrev til meg.</label></li>
+                    <li><input type="checkbox" id="sms" name="sms"/>
+                    <label for="sms">Ja takk! Jeg ønsker å mota tekstmeldinger med tilbud og nyheter.</label></li>
+                </ul>
+            </nav>
         </section>
 
     </main>

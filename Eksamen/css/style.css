@@ -15,7 +15,6 @@ header {
     align-items: center;
     text-align: center;
     padding: 1rem;
-    border-bottom: 1px solid black;
 }
 
 header nav {
@@ -34,7 +33,21 @@ header nav {
 
 #personal-info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#personal-info nav ul {
+    list-style-type: none;
+}
+
+#payment nav ul {
+    list-style-type: none;
+}
+
+#confirm nav ul {
+    list-style-type: none;
 }
 
 footer {
