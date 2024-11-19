@@ -21,6 +21,10 @@ header nav {
     list-style: none;
 }
 
+header nav li {
+    margin: 1rem;
+}
+
 #categories img {
     width: 100%;
     height: 100%;
