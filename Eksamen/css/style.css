@@ -17,7 +17,7 @@ header {
     padding: 1rem;
 }
 
-header nav {
+header nav ul {
     list-style: none;
 }
 
