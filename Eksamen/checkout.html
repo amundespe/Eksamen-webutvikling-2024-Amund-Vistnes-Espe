@@ -36,6 +36,7 @@
     
         <section id="shoppingbag">
             <h2>1. SHOPPINGBAGEN DIN</h2>
+            <div class="shoppinglist">
             <article>
                 <img src="https://picsum.photos/id/250/200" alt="Produktbilde">
                 <h4>PRODUCT NAME</h4>
@@ -92,39 +93,23 @@
                 <i class="fa-regular fa-heart"></i>
                 <i class="fa-regular fa-trash"></i>
             </article>
-                
+            </div>
         </section>
 
-        <section id="personal-info">
+        <section id="form">
             <h2>2. DINE OPPLYSNINGER</h2>
-            <form>
-                <nav>
-                    <ul>
-                        <li><p>Leveringsadresse</p></li>
-                        <li><label for="name">Fornavn</label></li>
-                        <li><input type="text" id="name" name="name" placeholder="Nora*"></li>
-                        <li><label for="surname">Etternavn</label> </li>
-                        <li><input type="text" id="surname" name="surname" placeholder="Nordman*"></li>
-                        <li><label for="address">Gateadresse</label></li>
-                        <li><input type="text" id="address" name="address" placeholder="BRA Veien 4*"></li>
-                        <li><label for="zip">Postnummer</label></li>
-                        <li><input type="text" id="zip" name="zip" placeholder="1752*"></li>
-                        <li><label for="city">Poststed</label></li>
-                        <li><input type="text" id="city" name="city" placeholder="Halden*"></li>
-                    </ul>
-                </nav>
-            </form>
-
-            <form>
-                <nav>
-                    <ul>
-                        <li><p>Kontaktinformasjon</p></li>
-                        <li><label for="mail">E-post</label></li>
-                        <li><input type="text" id="mail" name="mail" placeholder="Noranordman@hiof.no...*"></li>
-                        <li><label for="phone">Telefon</label></li>
-                        <li><input type="text" id="phone" name="phone" placeholder="+479***018"></li>
-                    </ul>
-                </nav>
+            <p>Leveringsadresse</p>
+            <form class="personal-info">
+                <label id="column1" for="name">Fornavn</label>
+                <input id="column2" type="text" id="name" name="name" placeholder="Nora*">
+                <label id="column1" for="surname">Etternavn</label>
+                <input id="column2" type="text" id="surname" name="surname" placeholder="Nordman*">
+                <label for="address" id="twocolums">Gateadresse</label>
+                <input type="text" id="twocolums" name="address" placeholder="BRA Veien 4*">
+                <label for="zip">Postnummer</label>
+                <input type="text" id="zip" name="zip" placeholder="1752*">
+                <label for="city">Poststed</label>
+                <input type="text" id="city" name="city" placeholder="Halden*">
             </form>
 
             <a href="#">Lagre</a>
@@ -203,7 +188,6 @@
                 </ul>
             </nav>
         </section>
-
     </main>
     <footer>
         <section id="logo">

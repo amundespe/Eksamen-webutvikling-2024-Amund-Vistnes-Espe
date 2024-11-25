@@ -246,11 +246,6 @@ footer span {
         height: 30%;
     }
 
-    #personal-info nav ul {
-        display: flex;
-        flex-direction: row;
-    }
-
     #payment nav ul {
         display: flex;
         flex-direction: row;
@@ -288,6 +283,37 @@ footer span {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         margin: 0rem;
+    }
+
+    .shoppinglist {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr auto;
+        margin: 1rem;
+    }
+
+   .personal-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 1rem;
+    }
+
+    /*.personal-info input, label {
+        display: flex;
+        flex-direction: column;
+    }*/
+
+    #twocolumns {
+        grid-column: 1 / 2;
+    }
+
+    #column1 {
+        grid-column: 1 / 1;
+    }
+
+    #column2 {
+        grid-column: 2 / 2;
     }
 
     footer {
