@@ -43,8 +43,8 @@
                 <p>Kr 1999</p>
                 <p>Farge: beige</p>
                 <form>
-                    <label for="sort">Størrelse</label>
-                    <select name="sort" id="sort">
+                    <label for="sortsize">Størrelse</label>
+                    <select name="sort" id="sortsize">
                         <option value="price">S</option>
                         <option value="name">M</option>
                         <option value="rating">L</option>
@@ -62,14 +62,14 @@
                 <p>Kr 1999</p>
                 <p>Farge: beige</p>
                 <form>
-                    <label for="sorting">Størrelse</label>
-                    <select name="sort" id="sort">
+                    <label for="sortsize2">Størrelse</label>
+                    <select name="sort" id="sortsize2">
                         <option value="price">S</option>
                         <option value="name">M</option>
                         <option value="rating">L</option>
                     </select>
                     <label for="quantity">Antall</label>
-                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    <input type="number" id="quantity2" name="quantity" min="1" max="10">
                 </form>
                 <i class="fa-regular fa-heart"></i>
                 <i class="fa-regular fa-trash"></i>
@@ -81,14 +81,14 @@
                 <p>Kr 1999</p>
                 <p>Farge: beige</p>
                 <form>
-                    <label for="sort">Størrelse</label>
-                    <select name="sort" id="sort">
+                    <label for="sortsize3">Størrelse</label>
+                    <select name="sort" id="sortsize3">
                         <option value="price">S</option>
                         <option value="name">M</option>
                         <option value="rating">L</option>
                     </select>
                     <label for="quantity">Antall</label>
-                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    <input type="number" id="quantity3" name="quantity" min="1" max="10">
                 </form>
                 <i class="fa-regular fa-heart"></i>
                 <i class="fa-regular fa-trash"></i>
@@ -119,39 +119,33 @@
         <section id="delivery">
             <h2>3. LEVERING</h2>
             <h3>LEVERINGSVALG</h3>
-            <section id="express shipping">
-                <nav>
-                    <ul>
-                        <input type="checkbox" id="express" name="express">
-                        <label for="express">Express Hjemlevering</label>
-                        <p>3-4 Virkedager</p>
-                        <p>59 kr <i class="fa-solid fa-truck-fast"></i></p>
-                        <p>Bestill hverdag før 08:00* for levering neste arbeidsdag. Leveres hjem til deg før frokost mandag til lørdag. *For levering til postnummer 4000-7999 er leveringstiden 2 arbeidsdager, for postnummer 8000-9999 er leveringstiden 3 arbeidsdager.</p>
-                    </ul>
-                </nav>
+            <section id="expressshipping">
+                <form>
+                    <input type="checkbox" id="express" name="express">
+                    <label for="express">Express Hjemlevering</label>
+                    <p>3-4 Virkedager</p>
+                    <p>59 kr <i class="fa-solid fa-truck-fast"></i></p>
+                    <p>Bestill hverdag før 08:00* for levering neste arbeidsdag. Leveres hjem til deg før frokost mandag til lørdag. *For levering til postnummer 4000-7999 er leveringstiden 2 arbeidsdager, for postnummer 8000-9999 er leveringstiden 3 arbeidsdager.</p>
+                </form>
             </section>
 
-            <section id="express package">
-                <nav>
-                    <ul>
-                        <input type="checkbox" id="express package" name="express package">
-                        <label for="express package">Ekspress Pakke til utleveringssted</label>
-                        <p>1-3 Virkedager <i class="fa-brands fa-dhl"></i></p>
-                        <p>59 kr</p>
-                    </ul>
-                </nav>
+            <section id="expresspackage">
+                <form>
+                    <input type="checkbox" id="expresspackage1" name="express package">
+                    <label for="expresspackage1">Ekspress Pakke til utleveringssted</label>
+                    <p>1-3 Virkedager <i class="fa-brands fa-dhl"></i></p>
+                    <p>59 kr</p>
+                </form>
             </section>
 
-            <section id="home delivery">
-                <nav>
-                    <ul>
-                        <input type="checkbox" id="home delivery" name="home delivery">
-                        <label for="home delivery">Standard Hjemlevering</label>
+            <section id="homedelivery">
+                <form>
+                        <input type="checkbox" id="homedelivery1" name="home delivery">
+                        <label for="homedelivery1">Standard Hjemlevering</label>
                         <p>5-8 Virkedager</p>
                         <p>Gratis <i class="fa-solid fa-box"></i></p>
                         <p>Leveres hjem til deg før frokost mandag til lørdag innen 4-7 hverdager.</p>
-                    </ul>
-                </nav>
+                </form>
             </section>
 
         </section>
