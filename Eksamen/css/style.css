@@ -157,29 +157,77 @@ footer span {
     }
 
     .categories-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    #category1 img {
+    .category1 {
         max-width: 386px;
+        position: relative;
     }
 
-    #category2 img {
+    .category2 {
         max-width: 386px;
+        position: relative;
     }
 
-    #category3 img {
+    .category3 {
         max-width: 386px;
+        position: relative;
     }
 
-    #category4 img {
+    .category4 {
         max-width: 864px;
+        position: relative;
     }
 
-    #category5 img {
+    .category5 {
         max-width: 300px;
+        position: relative;
+    }
+
+    .category1 h3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    .category2 h3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    .category3 h3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    .category4 h3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    .category5 h3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    #reviews {
+        margin: 1rem;
     }
 
     .rating {
@@ -211,6 +259,35 @@ footer span {
     #confirm nav ul {
         display: flex;
         flex-direction: row;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: 700px;
+        grid-template-rows: auto auto;
+        width: 700px;
+    }
+
+    .large-image {
+        grid-column: 1 /2;
+        width: 100%;
+        height: auto;
+    }
+
+    .small-image {
+        width: calc(100% / 3 - 7px);
+        height: auto;
+    }
+
+    .descriptionclass {
+        max-width: 440px; 
+    }
+
+    .product-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0rem;
     }
 
     footer {
