@@ -91,6 +91,16 @@ footer span {
         margin: 0.5rem;
     }
 
+    #banner {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #products, #categories {
+        text-align: center;
+    }
+
     #categories img {
         width: 50%;
         height: 50%;
