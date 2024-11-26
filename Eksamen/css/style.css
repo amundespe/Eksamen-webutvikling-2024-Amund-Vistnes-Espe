@@ -284,6 +284,23 @@ footer span {
         font-size: 2em;
     }
 
+    .image-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        width: 100%;
+    }
+
+    .large-image {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: auto;
+    }
+
+    .small-image {
+        width: calc(100% / 3 - 7px);
+        height: auto;
+    }
 }
 
 
