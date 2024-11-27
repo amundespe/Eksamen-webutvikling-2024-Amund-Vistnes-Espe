@@ -437,6 +437,11 @@ footer span {
         height: auto;
     }
 
+    .rating {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     .rating article {
         display: inline;
         flex-direction: row;
