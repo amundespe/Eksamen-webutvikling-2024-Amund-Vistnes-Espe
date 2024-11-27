@@ -603,6 +603,31 @@ footer span {
         grid-row: 6 / 6;
     }
 
+    label[for="email"] {
+        grid-row: 1 / 1;
+        grid-column: 1 / span 2;
+    }
+
+    .personal-info2 input, 
+    .personal-info2 label {
+        display: block;
+    }
+
+    #email {
+        grid-row: 2 / 2;
+        grid-column: 1 / span 2;
+    }
+
+    label[for="phone"] {
+        grid-row: 3 / 3;
+        grid-column: 1 / span 2;
+    }
+
+    #phone {
+        grid-row: 4 / 4;
+        grid-column: 1 / span 2;
+    }
+
     .product-images {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -670,6 +695,7 @@ footer span {
     .categories-grid {
         display: flex;
         flex-wrap: wrap; 
+        align-items: stretch;
     }
 
     .category1 {
