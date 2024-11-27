@@ -48,6 +48,7 @@ header nav li {
 #reviews img {
     width: 30%;
     height: 30%;
+    border-radius: 50%;
 }
 
 #personal-info {
@@ -92,6 +93,24 @@ footer span {
 .shoppinglist article {
     padding: 1rem;
 }
+
+#shoppingbag {
+    padding: 1rem;
+    border: 1px gray solid;
+    margin: 1rem;
+}
+
+#form {
+    padding: 1rem;
+    border: 1px gray solid;
+    margin: 1rem;
+}
+
+#payment {
+    padding: 1rem;
+    border: 1px gray solid;
+}
+
 
 
 
