@@ -229,20 +229,6 @@ footer span {
         color: white;
     }
 
-    #reviews{
-        margin: 1rem;
-    }
-
-    #reviews i {
-        display: inline;
-        flex-direction: row;
-    }
-
-    #reviews img {
-        width: 50%;
-        height: 50%;
-    }
-
     .personal-info {
         display: grid;
         grid-template-columns: 1fr;
@@ -452,8 +438,8 @@ footer span {
     }
 
     .rating article {
-        display: flex;
-        flex-direction: column;
+        display: inline;
+        flex-direction: row;
         max-width: 100%;
         border: 3px solid gray;
         margin: 2px;
@@ -689,19 +675,14 @@ footer span {
     }
 
     .rating article {
-        display: flex;
-        flex-direction: column;
+        display: inline;
+        flex-direction: row;
         max-width: 100%;
         border: 3px solid gray;
         margin: 2px;
         align-items: center;
         text-align: center;
         margin: 3rem;
-    }
-
-    .rating article i {
-        display: inline;
-        flex-direction: row;
     }
 
     .rating {
