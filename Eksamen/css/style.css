@@ -759,10 +759,6 @@ footer span {
         margin: 1rem;
     }
 
-    #categories img {
-        max-width: 350px;
-    }
-
     .product-images {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
