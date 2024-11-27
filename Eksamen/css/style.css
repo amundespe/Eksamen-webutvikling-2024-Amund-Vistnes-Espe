@@ -714,8 +714,8 @@ footer span {
     }
 
     #banner {
-        justify-content: center;
-        text-align: center;
+        justify-content: right;
+        text-align: right;
     }
 
     #products, #categories {
@@ -752,6 +752,11 @@ footer span {
 
     header nav li {
         margin: 1rem;
+    }
+
+    #banner {
+        justify-content: right;
+        text-align: right;
     }
 
     .product-images {
