@@ -118,9 +118,11 @@ footer span {
     border-radius: 25px;
 }
 
-.product-images {
-    flex-grow: initial;
+.product-images article {  
+    flex-grow: 5;
 }
+
+
 
 
 
