@@ -712,6 +712,15 @@ footer span {
         width: calc(100% / 3 - 7px);
         height: auto;
     }
+
+    #banner {
+        justify-content: center;
+        text-align: center;
+    }
+
+    #products, #categories {
+        text-align: center;
+    }
 }
 
 
