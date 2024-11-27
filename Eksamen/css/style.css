@@ -230,7 +230,7 @@ footer span {
     }
 
     #reviews{
-        text-align: center;
+        margin: 1rem;
     }
 
     #reviews i {
@@ -697,6 +697,11 @@ footer span {
         align-items: center;
         text-align: center;
         margin: 3rem;
+    }
+
+    .rating article i {
+        display: inline;
+        flex-direction: row;
     }
 
     .rating {
