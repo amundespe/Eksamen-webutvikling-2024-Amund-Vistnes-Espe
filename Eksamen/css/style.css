@@ -89,6 +89,12 @@ footer span {
     font-weight: bold;
 }
 
+.shoppinglist article {
+    padding: 1rem;
+}
+
+
+
 
 /*Mobile*/
 
@@ -191,6 +197,10 @@ footer span {
         color: white;
     }
 
+    #reviews{
+        text-align: center;
+    }
+
     #reviews img {
         width: 50%;
         height: 50%;
@@ -287,7 +297,6 @@ footer span {
         flex-direction: column;
     }
 
-
     #delivery {
         margin: 2rem;
     }
@@ -373,7 +382,20 @@ footer span {
         width: calc(100% / 3 - 7px);
         height: auto;
     }
+
+    .rating article {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        border: 3px solid gray;
+        margin: 2px;
+        align-items: center;
+        text-align: center;
+        margin: 3rem;
+    }
 }
+
+
 
 
 /*Tablet*/
@@ -388,13 +410,16 @@ footer span {
     }
 
     header {
+        display: block;
         flex-direction: row;
+        width: 100%;
     }
 
     header nav ul {
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: left;
     }
 
     header nav li {
@@ -523,7 +548,6 @@ footer span {
     label[for="surname"] {
         grid-row: 1 / 1;
         grid-column: 2 / 2;
-
     }
 
     #surname {
@@ -558,6 +582,27 @@ footer span {
     #city {
         grid-column: 2 / 2;
         grid-row: 6 / 6;
+    }
+
+    .product-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .rating article {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        border: 3px solid gray;
+        margin: 2px;
+        align-items: center;
+        text-align: center;
+        margin: 3rem;
+    }
+
+    .rating {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -605,7 +650,7 @@ footer span {
 
     .categories-grid {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
     }
 
     .category1 {
@@ -684,7 +729,7 @@ footer span {
 
     .rating article {
         max-width: 289px;
-        border: 1px solid gray;
+        border: 3px solid gray;
         margin: 2px;
     }
 
