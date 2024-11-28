@@ -126,7 +126,13 @@ footer span {
     flex-grow: 5;
 }
 
+.product-images img {
+    border-radius: 25%;
+}
 
+.shoppinglist img {
+    border-radius: 25%;
+}
 
 
 
